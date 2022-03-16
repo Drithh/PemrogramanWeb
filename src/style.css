@@ -1,0 +1,11 @@
+/* @tailwind base;
+@tailwind components; */
+
+.table {
+  display: table
+}
+
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity))
+}
