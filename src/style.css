@@ -5,9 +5,8 @@
   display: table
 }
 
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity))
+.text-center {
+  text-align: center
 }
 
 .text-blue-800 {
