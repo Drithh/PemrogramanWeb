@@ -4,215 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @font-face {
+        font-family: 'BasicCommercial';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/BasicCommercial.woff2?v=18075461709339313359 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'GTAmericaExpended';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/GTAmericaExpended.woff2?v=5443809538997579623 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'NeueWorldCondensed';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/NeueWorldCondensed.woff2?v=16306911584432805676 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
     <link rel="stylesheet" href="src/style.css" />
     <title>AKEI</title>
   </head>
-  <body bgcolor="#F0CDC7">
+  <body>
     <nav>
-      <table width="100%">
-        <td width="12%"></td>
-        <td width="55%">
-          <h3>
-            <font face="Roboto" size="6" color="#595959">AKEI</font>
-          </h3>
-        </td>
-        <td>
-          <h3>
-            <font face="Roboto" size="4" valign="middle">
-              <a href="index.html"><font color="#595959">HOME</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="src/shop.html"><font color="#595959">SHOP</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="src/about-us.html"
-                ><font color="#595959">ABOUT US</font></a
-              >
-            </font>
-          </h3>
-        </td>
-        <td width="12%"></td>
-      </table>
+      <div
+        class="flex w-screen fixed h-16 bg-soft place-content-around place-items-center border-solid border-0 border-b-2 border-b-lineColor"
+      >
+        <div class="relative flex w-[5%] place-content-between h-[1rem]">
+          <div
+            class="hamburger relative w-7 flex place-content-between flex-col"
+          >
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+          </div>
+          <div class="text-secondary font-gt text-sm relative top-[-1px]">
+            SHOP
+          </div>
+        </div>
+        <div class="relative w-[50vw]">
+          <h1 class="flex place-content-center text-dark font-black text-4xl">
+            Si'kea
+          </h1>
+        </div>
+        <div class="relative w-[5%] text-secondary text-sm font-gt">BAG</div>
+      </div>
     </nav>
-
-    <main>
-      <hr width="103%" color="#BDB29C" />
-      <h1 class="text-blue-800 text-center">makan</h1>
-      <table>
-        <tr height="80">
-          <td></td>
-          <td rowspan="2">
-            <img src="src/images/living-room.jpg" alt="living room" />
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" align="center" valign="top">
-            <h6>
-              <font face="Roboto" size="12" color="#BDB29C">
-                Mewah dan Modern
-                <br />
-              </font>
-            </h6>
-            <font face="Roboto" size="5" color="#BDB29C">
-              <i> Rumahmu membutuhkan mebel paling keren dari kami </i>
-            </font>
-          </td>
-        </tr>
-      </table>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h6 align="center">
-        <font face="Roboto" size="12" color="#8E8778"> Testimoni </font>
-      </h6>
-      <br />
-      <br />
-      <table width="60%" cellspacing="30" align="center">
-        <tr height="200">
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Saya memesan set ruang tamu yang bagus dan dirancang <br />
-                dengan sempurna ini bulan lalu. Ini benar-benar tahan lama,<br />
-                bahannya kelas atas! Sebelumnya saya sudah memesan <br />
-                beberapa furnitur dari AKEI dan sekarang saya <br />
-                adalah pelanggan tetap! Saya sangat senang dengan <br />
-                furnitur itu sendiri dan layanan perusahaan.
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="250">
-          <td></td>
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Ibunya Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Anak Saya memesan set ruang tamu yang bagus dan <br />
-                dirancang dengan sempurna ini bulan lalu. Ini benar-benar
-                <br />
-                tahan lama, bahannya kelas atas! Sebelumnya anak saya <br />
-                sudah memesan beberapa furnitur dari AKEI dan sekarang
-                <br />
-                anak saya adalah pelanggan tetap! anak saya sangat <br />
-                senang dengan furnitur itu sendiri dan layanan perusahaan.
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="80" valign="top">
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Musuhnya Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Apa yang dikatakan Udin Sumarno itu benar, tetapi <br />
-                yang beli set ruang tamu itu saya bukan dia <br />
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="250" valign="top">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b
-                ><i>
-                  Demetrius Demarcus Bartholomew <br />
-                  James lll Jr
-                </i></b
-              ><br /><br />
-              <font size="4"> URAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!! <br /> </font>
-            </font>
-          </td>
-          <td></td>
-        </tr>
-        <tr height="250">
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-        </tr>
-      </table>
-      <hr width="103%" color="#BDB29C" />
-    </main>
-
-    <footer>
-      <table width="100%" align="center">
-        <tr height="40"></tr>
-        <tr height="120" valign="middle">
-          <td width="30%"></td>
-          <td width="20%">
-            <h3>
-              <font face="Roboto" size="8" color="#595959">AKEI</font>
-            </h3>
-          </td>
-          <td width="10%"></td>
-          <td align="left">
-            <font face="Roboto" size="3" color="#595959">
-              <b>HUBUNGI KAMI</b> <br /><br />
-              Jalan Kaplingan No 5 Jebres Surakarta <br />
-              Jawa Tengah 57126 (depan mami) <br />
-              <br />
-              <b>Telepon</b>:
-              <a href="https://wa.me/6281256789012">
-                <font face="Roboto" size="3" color="#595959"
-                  >+62 812-5678-9012</font
-                >
-              </a>
-              (jono) <br />
-              <b>Surel</b>:
-              <a href="mailto:akeiieka@akei.com">
-                <font face="Roboto" size="3" color="#595959"
-                  >akeiieka@akei.com</font
-                > </a
-              ><br />
-            </font>
-          </td>
-          <td width="20%"></td>
-        </tr>
-        <tr height="100">
-          <td align="center" colspan="5">
-            <h6>
-              <font face="Roboto" size="2" color="#8E8778">
-                © 2022 AKIE
-                <br />
-                All Rights Reserved
-              </font>
-            </h6>
-          </td>
-        </tr>
-      </table>
-    </footer>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
