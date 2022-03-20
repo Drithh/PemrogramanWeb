@@ -5,8 +5,4 @@
   padding: 0;
 }
 
-.translate-z-1 {
-  transform: translateZ(-1px);
-}
-
 @tailwind utilities;

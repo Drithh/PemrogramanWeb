@@ -30,47 +30,98 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>AKEI</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <nav>
       <div
-        class="flex w-screen fixed h-16 bg-soft place-content-around place-items-center border-solid border-0 border-b-2 border-b-lineColor"
+        class="fixed flex h-16 w-screen place-content-around place-items-center border-0 border-b-2 border-solid border-b-lineColor bg-soft"
       >
-        <div class="relative flex w-[5%] place-content-between h-[1rem]">
+        <div class="relative flex h-[1rem] w-[5%] place-content-between">
           <div
-            class="hamburger relative w-7 flex place-content-between flex-col"
+            class="hamburger relative flex w-7 flex-col place-content-between"
           >
             <div class="hamburger__line h-[1px] w-full bg-dark"></div>
             <div class="hamburger__line h-[1px] w-full bg-dark"></div>
             <div class="hamburger__line h-[1px] w-full bg-dark"></div>
           </div>
-          <div class="text-secondary font-gt text-sm relative top-[-1px]">
+          <div class="relative top-[-1px] font-gt text-sm text-secondary">
             SHOP
           </div>
         </div>
         <div class="relative w-[50vw]">
-          <h1 class="flex place-content-center text-dark font-black text-4xl">
+          <h1 class="flex place-content-center text-4xl font-black text-dark">
             Si'kea
           </h1>
         </div>
-        <div class="relative w-[5%] text-secondary text-sm font-gt">BAG</div>
+        <div class="relative w-[5%] font-gt text-sm text-secondary">BAG</div>
       </div>
     </nav>
+
     <header
-      class="w-screen h-screen flex place-content-center place-items-center"
+      class="flex h-screen w-screen place-content-center place-items-center bg-[url('images/hero.jpg')] bg-fixed"
     >
-      <div
-        class="before:content-[''] before:absolute before:top-0 before:l-0 before:bg-[url('images/hero.jpg')] before:bg-cover before:-z-10 before:min-h-screen before:right-0 before:bottom-0 hero before:left-0 before:block before:origin-center before:scale-[2] before:translate-z-1"
-      >
+      <div class="">
         <div
-          class="font-serif text-white text-[7rem] font-thin text-center leading-[0.9]"
+          class="text-center font-serif text-[7rem] font-thin leading-[0.9] text-white"
         >
           <div>FURNITUR BERKELAS</div>
           <div>DARI BAHAN ALAMI</div>
         </div>
       </div>
-      <!-- <div class=""></div> -->
     </header>
-    <main class="h-screen">Test</main>
+
+    <main class="bg-soft">
+      <section
+        class="about-us flex h-[120vh] flex-col place-content-center place-items-center"
+      >
+        <div
+          class="mb-10 w-[35%] text-center font-serif text-[6rem] font-thin leading-[0.9] text-dark"
+        >
+          <div>MENCIPTAKAN PRODUK</div>
+          <div>YANG SEMPURNA DAN</div>
+          <div>MENAKJUBKAN</div>
+        </div>
+        <div class="w-[33%] text-center font-sans text-lg text-dark">
+          Mengembangkan konsep eksklusivitas, Sik'ea membuat furnitur sempurna,
+          dengan kain alami, dan desain minimalis, yang dapat dimasukkan ke
+          dalam proyek dekorasi apa pun. Setiap pahatan atau potongan yang
+          dibuat adalah 100% hasil karya kami, bertahan selama beberapa
+          generasi, dengan sentuhan masa kini.
+        </div>
+      </section>
+
+      <section class="product-section my-10">
+        <div
+          class="title flex h-[8rem] w-screen place-content-center place-items-center border-0 border-y-[1px] border-solid border-y-lineColor text-center font-serif text-6xl text-dark"
+        >
+          NIKMATI PRODUK UNGGULAN KAMI
+        </div>
+        <div class="shop flex h-[30rem] w-screen">
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          -
+        </div>
+        <div
+          class="shop-all flex h-[4rem] w-screen place-content-center place-items-center border-0 border-y-[1px] border-solid border-y-lineColor font-gt"
+        >
+          SHOP ALL
+        </div>
+      </section>
+
+      <section class="item-description flex h-screen w-screen">
+        <div class="item-text w-[50%] bg-secondary"></div>
+        <div class="item-image"></div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
