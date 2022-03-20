@@ -4,81 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>AKEI</title>
+    <style>
+      @font-face {
+        font-family: 'BasicCommercial';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/BasicCommercial.woff2?v=18075461709339313359 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'GTAmericaExpended';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/GTAmericaExpended.woff2?v=5443809538997579623 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'NeueWorldCondensed';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/NeueWorldCondensed.woff2?v=16306911584432805676 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>About Us</title>
   </head>
 
   <body bgcolor="#F0CDC7">
     <nav>
-      <table width="100%">
-        <td width="12%"></td>
-        <td width="55%">
-          <h3>
-            <font face="Roboto" size="6" color="#595959">AKEI</font>
-          </h3>
-        </td>
-        <td width="30">
-          <h3>
-            <font face="Roboto" size="4" valign="middle">
-              <a href="../index.html">
-                <font color="#595959">HOME</font>
-              </a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="shop.html">
-                <font color="#595959">SHOP</font>
-              </a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="about-us.html">
-                <font color="#595959">ABOUT US</font>
-              </a>
-            </font>
-          </h3>
-        </td>
-        <td width="12%"></td>
-      </table>
+      <div
+        class="fixed z-50 flex h-16 w-screen place-content-around place-items-center border-b-2 border-solid border-b-lineColor bg-soft"
+      >
+        <div class="relative flex h-[1rem] w-[5%] place-content-between">
+          <div
+            class="hamburger relative flex w-7 flex-col place-content-between"
+          >
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+          </div>
+          <a
+            href="shop.html"
+            class="relative top-[-1px] font-gt text-sm text-secondary no-underline"
+          >
+            SHOP
+          </a>
+        </div>
+        <div class="relative w-[50vw]">
+          <a
+            href="../index.html"
+            class="flex place-content-center no-underline text-4xl font-black text-dark opacity-80"
+          >
+            Sik'ea
+          </a>
+        </div>
+        <div class="relative w-[5%] font-gt text-sm text-secondary">BAG</div>
+      </div>
     </nav>
 
     <main>
-      <hr width="100%" color="#BDB29C" />
-      <table align="center" cellspacing="30">
-        <tr>
-          <td colspan="5" height="30"></td>
-        </tr>
-        <tr>
-          <td width="400"></td>
-          <td colspan="3" align="center" valign="top">
-            <h6>
-              <font face="Roboto" size="6" color="#8E8778">
-                Tentang Kami
-                <br />
-              </font>
-            </h6>
-            <font face="Roboto" size="4" color="#8E8778">
-              AKIE adalah perusahaan penghasil mebel yang barang-barangnya dapat
-              dicirikan sebagai barang yang unik, non-konformis dan otentik –
-              tidak pernah membosankan dan selalu penuh imajinasi dan inspirasi.
-              <br />
-              <br />, AKIE berhasil selama bertahun-tahun dalam melacak ikon
-              gaya, mengembangkan tren dan inovasi dalam desain mebel, dan
-              menggunakannya untuk memenuhi impian para penggemar perabotan.
-              <br />
-              <br />
-              Dengan keberanian untuk berinovasi, AKIE menciptakan tren dan
-              koleksi perabotan unik yang terjangkau dan diminati semua orang.
-              Sebagai pemasok internasional dan pembuat perubahan, AKIE terus
-              menciptakan desain perabotan dan benda seni baru.
-            </font>
-          </td>
-          <td width="400"></td>
-        </tr>
-        <tr>
-          <td height="80"></td>
-        </tr>
+      <section
+        class="about-us h-[90vh] bg-secondary flex place-content-centerflex place-content-center"
+      >
+        <div
+          class="border-wrapper w-[90vw] flex place-content-center place-items-center flex-col border-solid border-x-lineColor border-x-[1px] border-opacity-60"
+        >
+          <div
+            class="about-us-wrapper w-[60vw] flex place-content-start place-items-start flex-col"
+          >
+            <div
+              class="mb-10 text-left font-serif text-6xl font-thin leading-[0.9] text-white"
+            >
+              DIBUAT BERDASARKAN KONSEP EKSKLUSIVITAS
+            </div>
+            <div
+              class="w-[70%] text-left font-sans text-2xl text-white opacity-70"
+            >
+              <p class="my-12">
+                Mengembangkan konsep eksklusivitas, Sik'ea membuat furnitur
+                sempurna, dengan kain alami, dan desain minimalis, yang dapat
+                dimasukkan ke dalam proyek dekorasi apa pun. Setiap pahatan atau
+                potongan yang dibuat adalah 100% hasil karya kami, bertahan
+                selama beberapa generasi, dengan sentuhan masa kini.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                dolores voluptate fugiat assumenda nulla eos mollitia quaerat
+                commodi? Obcaecati tempore perferendis a, molestias vero sit
+                libero ipsa quam facilis et, officia ad hic, iure ipsum est
+                numquam earum officiis qui?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
         <tr>
           <td></td>

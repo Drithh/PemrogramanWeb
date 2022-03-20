@@ -4,162 +4,326 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>AKEI</title>
+    <style>
+      @font-face {
+        font-family: 'BasicCommercial';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/BasicCommercial.woff2?v=18075461709339313359 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'GTAmericaExpended';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/GTAmericaExpended.woff2?v=5443809538997579623 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'NeueWorldCondensed';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/NeueWorldCondensed.woff2?v=16306911584432805676 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Shop</title>
   </head>
-  <body bgcolor="#F0CDC7">
+
+  <body>
     <nav>
-      <table width="100%">
-        <td width="12%"></td>
-        <td width="55%">
-          <h3>
-            <font face="Roboto" size="6" color="#595959">AKEI</font>
-          </h3>
-        </td>
-        <td>
-          <h3>
-            <font face="Roboto" size="4" valign="middle">
-              <a href="../index.html"><font color="#595959">HOME</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="shop.html"><font color="#595959">SHOP</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="about-us.html"><font color="#595959">ABOUT US</font></a>
-            </font>
-          </h3>
-        </td>
-        <td width="12%"></td>
-      </table>
+      <div
+        class="fixed z-50 flex h-16 w-screen place-content-around place-items-center border-b-[1px] border-solid border-b-lineColor bg-soft"
+      >
+        <div class="relative flex h-[1rem] w-[5%] place-content-between">
+          <div
+            class="hamburger relative flex w-7 flex-col place-content-between"
+          >
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+          </div>
+          <a
+            href="shop.html"
+            class="relative top-[-1px] font-gt text-sm text-secondary no-underline"
+          >
+            SHOP
+          </a>
+        </div>
+        <div class="relative w-[50vw]">
+          <a
+            href="../index.html"
+            class="flex place-content-center no-underline text-4xl font-black text-dark opacity-80"
+          >
+            Sik'ea
+          </a>
+        </div>
+        <div class="relative w-[5%] font-gt text-sm text-secondary">BAG</div>
+      </div>
     </nav>
 
-    <main>
-      <hr width="100%" color="#BDB29C" />
+    <header
+      class="flex pt-20 w-screen place-content-center place-items-center bg-soft border-b-[1px] border-solid border-b-lineColor"
+    >
+      <div class="title text-center font-serif text-8xl my-8 text-dark">
+        SEMUA
+      </div>
+    </header>
 
-      <table align="center" width="1130" cellspacing="80">
-        <tr>
-          <td align="center" valign="middle" colspan="3">
-            <h6>
-              <font face="Roboto" size="12" color="#595959">
-                Yang Kami Tawarkan
-              </font>
-            </h6>
-          </td>
-        </tr>
-        <tr>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-1">
-              <img src="images/shop/box-1.png" alt="box-1" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"><b>Kursi</b></font>
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>500K IDR</b></font>
-          </td>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-2">
-              <img src="images/shop/box-2.png" alt="box-2" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"><b>Sofa</b></font>
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>800K IDR</b></font>
-          </td>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-3">
-              <img src="images/shop/box-3.png" alt="box-3" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"><b>Meja</b></font>
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>349K IDR</b></font>
-          </td>
-        </tr>
-        <tr>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-4">
-              <img src="images/shop/box-4.png" alt="box-4" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"
-              ><b>Penerangan</b></font
+    <main class="bg-soft relative">
+      <div class="wrapper py-4">
+        <div class="total-product font-gt text-dark pl-[26rem]">6 PRODUK</div>
+      </div>
+      <div
+        class="main-shop border-y-[1px] border-solid border-y-lineColor flex"
+      >
+        <div class="sticky top-16 side-panel h-screen w-[30rem]">
+          <div class="side__each font-gt">
+            <div
+              class="title text-dark text-base border-b-[1px] border-solid border-b-lineColor h-10 pl-20 flex place-items-center"
             >
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>99K IDR</b></font>
-          </td>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-5">
-              <img src="images/shop/box-5.png" alt="box-5" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"><b>Tekstil</b></font>
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>69K IDR</b></font>
-          </td>
-          <td width="33%" height="360" align="center" valign="bottom">
-            <a href="../buy/item-6">
-              <img src="images/shop/box-6.png" alt="box-6" />
-            </a>
-            <font face="Roboto" size="7" color="#8E8778"><b>Dekorasi</b></font>
-            <br />
-            <font face="Roboto" size="4" color="#8E8778">dari</font>
-            <font face="Roboto" size="5" color="#8E8778"><b>111K IDR</b></font>
-          </td>
-        </tr>
-        <tr height="200"></tr>
-      </table>
-      <hr width="100%" color="#BDB29C" />
+              FILTERS
+            </div>
+            <div class="item-wrapper flex flex-col gap-2 mt-4 mb-10">
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                FURNITUR
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                DEKORASI
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                KURSI
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                KERAMIK
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                LAMPU
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                SOFA
+              </div>
+              <div class="item-select text-dark opacity-50 text-sm pl-20">
+                MEJA
+              </div>
+            </div>
+            <div class="side__each font-gt">
+              <div
+                class="title text-dark text-base border-y-[1px] border-solid border-y-lineColor h-10 pl-20 flex place-items-center"
+              >
+                URUTKAN
+              </div>
+              <div class="item-wrapper flex flex-col gap-2 mt-4 mb-10">
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  TERLARIS
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  A-Z
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  Z-A
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  HARGA: TERENDAH - TERTINGGI
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  HARGA: TERTINGGI - TERENDAH
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  TERBARU - TERLAMA
+                </div>
+                <div class="item-select text-dark opacity-50 text-sm pl-20">
+                  TERLAMA - TERBARU
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop w-full flex flex-wrap">
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+          <div
+            class="item__each w-[44.2rem] border-b border-l border-solid border-lineColor p-6 h-[48rem]"
+          >
+            <img
+              class="w-full"
+              src="images/shop/chair-1-sm.jpg"
+              alt="chair-1"
+            />
+            <div
+              class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+            >
+              <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+              <div class="item-price text-xs text-secondary">200K IDR</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gap h-20"></div>
     </main>
 
-    <footer>
-      <table width="100%" align="center">
-        <tr height="40"></tr>
-        <tr height="120" valign="middle">
-          <td width="30%"></td>
-          <td width="20%">
-            <h3>
-              <font face="Roboto" size="8" color="#595959">AKEI</font>
-            </h3>
-          </td>
-          <td width="10%"></td>
-          <td align="left">
-            <font face="Roboto" size="3" color="#595959">
-              <b>HUBUNGI KAMI</b> <br /><br />
-              Jalan Kaplingan No 5 Jebres Surakarta <br />
-              Jawa Tengah 57126 (depan mami) <br />
-              <br />
-              <b>Telepon</b>:
-              <a href="https://wa.me/6281256789012">
-                <font face="Roboto" size="3" color="#595959"
-                  >+62 812-5678-9012</font
-                >
-              </a>
-              (jono) <br />
-              <b>Surel</b>:
-              <a href="mailto:akeiieka@akei.com">
-                <font face="Roboto" size="3" color="#595959"
-                  >akeiieka@akei.com</font
-                > </a
-              ><br />
-            </font>
-          </td>
-          <td width="20%"></td>
-        </tr>
-        <tr height="100">
-          <td align="center" colspan="5">
-            <h6>
-              <font face="Roboto" size="2" color="#8E8778">
-                © 2022 AKIE
-                <br />
-                All Rights Reserved
-              </font>
-            </h6>
-          </td>
-        </tr>
-      </table>
+    <footer class="flex w-screen flex-col bg-secondary">
+      <div
+        class="footer-wrapper my-32 flex flex-row place-content-around place-items-center"
+      >
+        <div
+          class="logo flex place-content-center text-6xl font-black text-soft"
+        >
+          Sik'ea
+        </div>
+        <div class="main-footer flex gap-40">
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              ABOUT US
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Who Are We</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Article</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Contact</a
+            >
+          </div>
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              SHOP
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >All</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Decor</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Furniture</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Lamp</a
+            >
+          </div>
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              HELP
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Privacy Policy</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Refunds & Returns</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="copyright flex h-10 place-content-center place-items-center font-gt text-xs font-extralight text-soft opacity-50"
+      >
+        © 2022 Sik'ea All rights reserved.
+      </div>
     </footer>
   </body>
 </html>
