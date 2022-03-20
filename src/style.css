@@ -13,3 +13,8 @@
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity))
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
