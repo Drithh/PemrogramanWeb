@@ -5,214 +5,372 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @font-face {
+        font-family: 'BasicCommercial';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/BasicCommercial.woff2?v=18075461709339313359 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'GTAmericaExpended';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/GTAmericaExpended.woff2?v=5443809538997579623 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'NeueWorldCondensed';
+        src: url(' //cdn.shopify.com/s/files/1/0605/2062/8438/t/1/assets/NeueWorldCondensed.woff2?v=16306911584432805676 ')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body bgcolor="#F0CDC7">
+  <body class="overflow-x-hidden">
     <nav>
-      <table width="100%">
-        <td width="12%"></td>
-        <td width="55%">
-          <h3>
-            <font face="Roboto" size="6" color="#595959">AKEI</font>
-          </h3>
-        </td>
-        <td>
-          <h3>
-            <font face="Roboto" size="4" valign="middle">
-              <a href="index.html"><font color="#595959">HOME</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="src/shop.html"><font color="#595959">SHOP</font></a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="src/about-us.html"
-                ><font color="#595959">ABOUT US</font></a
-              >
-            </font>
-          </h3>
-        </td>
-        <td width="12%"></td>
-      </table>
+      <div
+        class="fixed z-50 flex h-16 w-screen place-content-around place-items-center border-0 border-b-2 border-solid border-b-lineColor bg-soft"
+      >
+        <div class="relative flex h-[1rem] w-[5%] place-content-between">
+          <div
+            class="hamburger relative flex w-7 flex-col place-content-between"
+          >
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+            <div class="hamburger__line h-[1px] w-full bg-dark"></div>
+          </div>
+          <div class="relative top-[-1px] font-gt text-sm text-secondary">
+            SHOP
+          </div>
+        </div>
+        <div class="relative w-[50vw]">
+          <h1 class="flex place-content-center text-4xl font-black text-dark">
+            Sik'ea
+          </h1>
+        </div>
+        <div class="relative w-[5%] font-gt text-sm text-secondary">BAG</div>
+      </div>
     </nav>
 
-    <main>
-      <hr width="103%" color="#BDB29C" />
-      <h1 class="text-blue-800 text-center">makan</h1>
-      <table>
-        <tr height="80">
-          <td></td>
-          <td rowspan="2">
-            <img src="src/images/living-room.jpg" alt="living room" />
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" align="center" valign="top">
-            <h6>
-              <font face="Roboto" size="12" color="#BDB29C">
-                Mewah dan Modern
-                <br />
-              </font>
-            </h6>
-            <font face="Roboto" size="5" color="#BDB29C">
-              <i> Rumahmu membutuhkan mebel paling keren dari kami </i>
-            </font>
-          </td>
-        </tr>
-      </table>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h6 align="center">
-        <font face="Roboto" size="12" color="#8E8778"> Testimoni </font>
-      </h6>
-      <br />
-      <br />
-      <table width="60%" cellspacing="30" align="center">
-        <tr height="200">
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Saya memesan set ruang tamu yang bagus dan dirancang <br />
-                dengan sempurna ini bulan lalu. Ini benar-benar tahan lama,<br />
-                bahannya kelas atas! Sebelumnya saya sudah memesan <br />
-                beberapa furnitur dari AKEI dan sekarang saya <br />
-                adalah pelanggan tetap! Saya sangat senang dengan <br />
-                furnitur itu sendiri dan layanan perusahaan.
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="250">
-          <td></td>
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Ibunya Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Anak Saya memesan set ruang tamu yang bagus dan <br />
-                dirancang dengan sempurna ini bulan lalu. Ini benar-benar
-                <br />
-                tahan lama, bahannya kelas atas! Sebelumnya anak saya <br />
-                sudah memesan beberapa furnitur dari AKEI dan sekarang
-                <br />
-                anak saya adalah pelanggan tetap! anak saya sangat <br />
-                senang dengan furnitur itu sendiri dan layanan perusahaan.
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="80" valign="top">
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b><i> Musuhnya Udin Sumarno </i></b><br /><br />
-              <font size="4">
-                Apa yang dikatakan Udin Sumarno itu benar, tetapi <br />
-                yang beli set ruang tamu itu saya bukan dia <br />
-              </font>
-            </font>
-          </td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="80"></tr>
-        <tr height="250" valign="top">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td colspan="4">
-            <font face="Roboto" size="5" color="#8E8778">
-              <b
-                ><i>
-                  Demetrius Demarcus Bartholomew <br />
-                  James lll Jr
-                </i></b
-              ><br /><br />
-              <font size="4"> URAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!! <br /> </font>
-            </font>
-          </td>
-          <td></td>
-        </tr>
-        <tr height="250">
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-          <td width="7.5%"></td>
-        </tr>
-      </table>
-      <hr width="103%" color="#BDB29C" />
-    </main>
+    <header
+      class="flex h-screen w-screen place-content-center place-items-center bg-[url('images/hero.jpg')] bg-fixed"
+    >
+      <div class="">
+        <div
+          class="text-center font-serif text-[7rem] font-thin leading-[0.9] text-white"
+        >
+          <div>FURNITUR BERKELAS</div>
+          <div>DARI BAHAN ALAMI</div>
+        </div>
+      </div>
+    </header>
 
-    <footer>
-      <table width="100%" align="center">
-        <tr height="40"></tr>
-        <tr height="120" valign="middle">
-          <td width="30%"></td>
-          <td width="20%">
-            <h3>
-              <font face="Roboto" size="8" color="#595959">AKEI</font>
-            </h3>
-          </td>
-          <td width="10%"></td>
-          <td align="left">
-            <font face="Roboto" size="3" color="#595959">
-              <b>HUBUNGI KAMI</b> <br /><br />
-              Jalan Kaplingan No 5 Jebres Surakarta <br />
-              Jawa Tengah 57126 (depan mami) <br />
-              <br />
-              <b>Telepon</b>:
-              <a href="https://wa.me/6281256789012">
-                <font face="Roboto" size="3" color="#595959"
-                  >+62 812-5678-9012</font
-                >
-              </a>
-              (jono) <br />
-              <b>Surel</b>:
-              <a href="mailto:akeiieka@akei.com">
-                <font face="Roboto" size="3" color="#595959"
-                  >akeiieka@akei.com</font
-                > </a
-              ><br />
-            </font>
-          </td>
-          <td width="20%"></td>
-        </tr>
-        <tr height="100">
-          <td align="center" colspan="5">
-            <h6>
-              <font face="Roboto" size="2" color="#8E8778">
-                © 2022 AKIE
-                <br />
-                All Rights Reserved
-              </font>
-            </h6>
-          </td>
-        </tr>
-      </table>
+    <main class="bg-soft">
+      <section
+        class="about-us flex h-[120vh] flex-col place-content-center place-items-center"
+      >
+        <div
+          class="mb-10 w-[35%] text-center font-serif text-[6rem] font-thin leading-[0.9] text-dark"
+        >
+          <div>MENCIPTAKAN PRODUK</div>
+          <div>YANG SEMPURNA DAN</div>
+          <div>MENAKJUBKAN</div>
+        </div>
+        <div class="w-[33%] text-center font-sans text-lg text-dark">
+          Mengembangkan konsep eksklusivitas, Sik'ea membuat furnitur sempurna,
+          dengan kain alami, dan desain minimalis, yang dapat dimasukkan ke
+          dalam proyek dekorasi apa pun. Setiap pahatan atau potongan yang
+          dibuat adalah 100% hasil karya kami, bertahan selama beberapa
+          generasi, dengan sentuhan masa kini.
+        </div>
+      </section>
+
+      <section class="product-section my-10">
+        <div
+          class="title flex h-[8rem] w-screen place-content-center place-items-center border-0 border-y-[1px] border-solid border-y-lineColor text-center font-serif text-6xl text-dark"
+        >
+          NIKMATI PRODUK UNGGULAN KAMI
+        </div>
+        <div class="shop flex h-[30rem] w-screen">
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          <div
+            class="item w-[25%] border-0 border-r-[1px] border-solid border-lineColor"
+          ></div>
+          -
+        </div>
+        <div
+          class="shop-all flex h-[4rem] w-screen place-content-center place-items-center border-0 border-y-[1px] border-solid border-y-lineColor font-gt"
+        >
+          SHOP ALL
+        </div>
+      </section>
+
+      <section class="item-description flex h-auto w-screen">
+        <div class="item-text w-[50vw] bg-secondary"></div>
+        <div class="item-image">
+          <img
+            src="src/images/shop/chair-1-big.jpg"
+            class="w-[50vw]"
+            alt="Kursi Kayu"
+          />
+        </div>
+      </section>
+
+      <section
+        class="image relative h-[140vh] w-screen bg-[url('images/product-1.jpg')] bg-cover bg-fixed bg-center"
+      >
+        <div
+          class="product-each absolute left-[11rem] top-[12vh] z-10 flex h-auto w-[22rem] flex-col bg-white p-[2rem]"
+        >
+          <img
+            class="h-[24rem]"
+            src="src/images/shop/chair-1-sm.jpg"
+            alt="chair-1"
+          />
+          <div class="item-info my-6 flex place-content-between p-1 font-gt">
+            <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+            <div class="item-price text-xs text-secondary">200K IDR</div>
+          </div>
+        </div>
+        <div
+          class="product-each absolute right-[11rem] bottom-[12vh] z-10 flex h-auto w-[22rem] flex-col bg-white p-[2rem]"
+        >
+          <img
+            class="h-[24rem]"
+            src="src/images/shop/vase-1-big.jpg"
+            alt="chair-1"
+          />
+          <div class="item-info my-6 flex place-content-between p-1 font-gt">
+            <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+            <div class="item-price text-xs text-secondary">200K IDR</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="article">
+        <div
+          class="title flex h-[10rem] w-screen place-content-center place-items-center text-center font-serif text-6xl text-dark"
+        >
+          ARTIKEL KAMI
+        </div>
+        <div
+          class="flex flex-row place-content-center border-y-[1px] border-solid border-lineColor"
+        >
+          <div class="main-article flex flex-row">
+            <div
+              class="article-text inline-flex w-[43vw] flex-col border-x-[1px] border-solid border-lineColor"
+            >
+              <div
+                class="relative flex h-10 place-items-center border-b-[1px] border-solid border-lineColor px-10 font-gt"
+              >
+                ARTIKEL TERBARU
+              </div>
+              <div class="text-wrapper p-6">
+                <div class="title font-serif text-8xl text-dark">
+                  Manhattan Pied-à-terre untuk apartemen baru anda
+                </div>
+                <div class="desc mt-24 mb-12 w-[90%] font-sans text-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt consectetur, repudiandae sed vitae iste tempora, eius
+                  tenetur dolor fugiat, voluptatibus sequi quia veritatis
+                  similique. Vero, officia quas numquam possimus nihil ullam.
+                  Magnam quasi vel exercitationem tenetur, quaerat eius quas
+                  cupiditate? Chicago.
+                </div>
+                <div class="article-link font-gt text-xs text-dark">
+                  BACA ARTIKEL
+                </div>
+              </div>
+            </div>
+            <div
+              class="article-image border-r-[1px] border-solid border-lineColor"
+            >
+              <div
+                class="relative flex h-10 place-content-end place-items-center border-b-[1px] border-solid border-lineColor pr-10 font-gt"
+              >
+                BLOG
+              </div>
+              <div class="image-wrapper p-6">
+                <img
+                  class="h-[28vw]"
+                  src="src/images/product-2.jpg"
+                  alt="chair-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="see-all flex h-14 place-content-center place-items-center font-gt text-dark"
+        >
+          SEMUA ARTIKEL
+        </div>
+        <div
+          class="list-article flex flex-row border-y-[1px] border-solid border-lineColor"
+        >
+          <div
+            class="article__item w-1/3 border-r-[1px] border-solid border-lineColor p-5"
+          >
+            <img class="w-full" src="src/images/product-2.jpg" alt="chair-1" />
+            <div class="title font-serif text-6xl text-dark">
+              Manhattan Pied-à-terre untuk apartemen baru anda
+            </div>
+            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ex
+              quam, officia quasi expedita quis maxime fuga consequatur eius
+              aliquid iusto assumenda numquam sed, praesentium reprehenderit et
+              aspernatur commodi, blanditiis totam. Eaque nihil deserunt
+              accusamus reiciendis natus quibusdam illo eligendi?
+            </div>
+            <div class="article-link font-gt text-xs text-dark">
+              BACA ARTIKEL
+            </div>
+          </div>
+          <div
+            class="article__item w-1/3 border-r-[1px] border-solid border-lineColor p-5"
+          >
+            <img class="w-full" src="src/images/product-2.jpg" alt="chair-1" />
+            <div class="title font-serif text-6xl text-dark">
+              Manhattan Pied-à-terre untuk apartemen baru anda
+            </div>
+            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sed
+              odit nesciunt pariatur minima distinctio, placeat hic porro autem
+              ipsam. Et fugiat similique suscipit, eos recusandae laborum hic
+              rerum eum pariatur minima! Cum consequatur voluptatum tempore
+              unde, neque id. Numquam.
+            </div>
+            <div class="article-link font-gt text-xs text-dark">
+              BACA ARTIKEL
+            </div>
+          </div>
+          <div
+            class="article__item w-1/3 border-r-[1px] border-solid border-lineColor p-5"
+          >
+            <img
+              class="h-[395px] w-full"
+              src="src/images/local.jpg"
+              alt="chair-1"
+            />
+            <div class="title font-serif text-6xl text-dark">
+              Krabby Kronicle<br />
+              Local Resident Marries Pole!
+            </div>
+            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusantium eos debitis autem commodi ipsum facilis? Maxime, vitae
+              fugiat. Ratione nihil inventore omnis tempora? Dolore expedita aut
+              a commodi eaque rem natus et nisi, eum quia? Est hic maiores
+              expedita. Fugit!
+            </div>
+            <div class="article-link font-gt text-xs text-dark">
+              BACA ARTIKEL
+            </div>
+          </div>
+        </div>
+        <div class="gap h-[20vh]"></div>
+      </section>
+    </main>
+    <footer class="flex w-screen flex-col bg-secondary">
+      <div
+        class="footer-wrapper my-32 flex flex-row place-content-around place-items-center"
+      >
+        <div
+          class="logo flex place-content-center text-6xl font-black text-soft"
+        >
+          Sik'ea
+        </div>
+        <div class="main-footer flex gap-40">
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              ABOUT US
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Who Are We</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Article</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Contact</a
+            >
+          </div>
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              SHOP
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >All</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Decor</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Furniture</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Lamp</a
+            >
+          </div>
+          <div class="link-wrapper flex flex-col gap-2">
+            <div
+              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+            >
+              HELP
+            </div>
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Privacy Policy</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Refunds & Returns</a
+            >
+            <a
+              href="http://"
+              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="copyright flex h-10 place-content-center place-items-center font-gt text-xs font-extralight text-soft opacity-50"
+      >
+        © 2022 Sik'ea All rights reserved.
+      </div>
     </footer>
   </body>
 </html>
