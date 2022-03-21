@@ -61,10 +61,6 @@
   z-index: 10;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -99,6 +95,14 @@
   margin-bottom: 2.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
@@ -111,10 +115,6 @@
   margin-top: 3rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -125,10 +125,6 @@
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .flex {
@@ -151,7 +147,7 @@
   height: 1rem;
 }
 
-.h-\[1px\] {
+.h-px {
   height: 1px;
 }
 
@@ -175,16 +171,12 @@
   height: 8rem;
 }
 
-.h-\[30rem\] {
-  height: 30rem;
+.h-auto {
+  height: auto;
 }
 
 .h-\[4rem\] {
   height: 4rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-\[140vh\] {
@@ -225,10 +217,6 @@
 
 .h-20 {
   height: 5rem;
-}
-
-.h-px {
-  height: 1px;
 }
 
 .w-screen {
@@ -319,14 +307,6 @@
   width: 30rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-\[95\%\] {
-  width: 95%;
-}
-
 .w-\[93\%\] {
   width: 93%;
 }
@@ -383,16 +363,8 @@
   gap: 1rem;
 }
 
-.overflow-x-auto {
-  overflow-x: auto;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-x-clip {
-  overflow-x: clip;
 }
 
 .rounded-md {
@@ -417,17 +389,7 @@
   border-right-width: 1px;
 }
 
-.border-x-\[1px\] {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
-.border-y-\[1px\] {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.border-b-\[1px\] {
+.border-b {
   border-bottom-width: 1px;
 }
 
@@ -435,24 +397,12 @@
   border-right-width: 1px;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
-.border-r-\[1px\] {
-  border-right-width: 1px;
-}
-
 .border-l {
   border-left-width: 1px;
 }
 
-.border-t-\[1px\] {
-  border-top-width: 1px;
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-t {
@@ -543,16 +493,16 @@
   background-position: center;
 }
 
-.p-\[2rem\] {
-  padding: 2rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-1 {
   padding: 0.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-\[2rem\] {
+  padding: 2rem;
 }
 
 .p-5 {
