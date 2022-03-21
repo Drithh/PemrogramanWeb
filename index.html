@@ -34,15 +34,15 @@
   <body class="overflow-x-hidden">
     <nav>
       <div
-        class="fixed z-50 flex h-16 w-screen place-content-around place-items-center border-b-2 border-solid border-b-lineColor bg-soft"
+        class="fixed z-50 flex h-16 w-screen place-content-around place-items-center border-b border-solid border-b-lineColor bg-soft"
       >
         <div class="relative flex h-[1rem] w-[5%] place-content-between">
           <div
             class="hamburger relative flex w-7 flex-col place-content-between"
           >
-            <div class="hamburger__line h w-full bg-dark"></div>
-            <div class="hamburger__line h w-full bg-dark"></div>
-            <div class="hamburger__line h w-full bg-dark"></div>
+            <div class="hamburger__line h-px w-full bg-dark"></div>
+            <div class="hamburger__line h-px w-full bg-dark"></div>
+            <div class="hamburger__line h-px w-full bg-dark"></div>
           </div>
           <a
             href="src/shop.html"
@@ -108,26 +108,74 @@
 
       <section class="product-section my-10">
         <div
-          class="title flex h-[8rem] w-screen place-content-center place-items-center border-0 border-y border-solid border-y-lineColor text-center font-serif text-6xl text-dark"
+          class="title flex h-[8rem] w-screen place-content-center place-items-center border-y border-solid border-y-lineColor text-center font-serif text-6xl text-dark"
         >
           NIKMATI PRODUK UNGGULAN KAMI
         </div>
-        <div class="shop flex h-[30rem] w-screen">
-          <div
-            class="item w-[25%] border-0 border-r border-solid border-lineColor"
-          ></div>
-          <div
-            class="item w-[25%] border-0 border-r border-solid border-lineColor"
-          ></div>
-          <div
-            class="item w-[25%] border-0 border-r border-solid border-lineColor"
-          ></div>
-          <div
-            class="item w-[25%] border-0 border-r border-solid border-lineColor"
-          ></div>
+        <div class="shop flex w-screen">
+          <div class="item w-[25%] border-r border-solid border-lineColor">
+            <div class="item__each p-6">
+              <img
+                class="w-full h-auto"
+                src="src/images/shop/chair-2.png"
+                alt="chair-2"
+              />
+              <div
+                class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+              >
+                <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+                <div class="item-price text-xs text-secondary">200K IDR</div>
+              </div>
+            </div>
+          </div>
+          <div class="item w-[25%] border-r border-solid border-lineColor">
+            <div class="item__each p-6">
+              <img
+                class="w-full h-auto"
+                src="src/images/shop/chair-3.jpg"
+                alt="chair-3"
+              />
+              <div
+                class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+              >
+                <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+                <div class="item-price text-xs text-secondary">200K IDR</div>
+              </div>
+            </div>
+          </div>
+          <div class="item w-[25%] border-r border-solid border-lineColor">
+            <div class="item__each p-6">
+              <img
+                class="w-full h-auto"
+                src="src/images/shop/pot-2.png"
+                alt="pot-2"
+              />
+              <div
+                class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+              >
+                <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+                <div class="item-price text-xs text-secondary">200K IDR</div>
+              </div>
+            </div>
+          </div>
+          <div class="item w-[25%] border-r border-solid border-lineColor">
+            <div class="item__each p-6">
+              <img
+                class="w-full h-auto"
+                src="src/images/shop/sofa-1.png"
+                alt="sofa-1"
+              />
+              <div
+                class="item-info mt-3 mb-6 flex place-content-between p-1 font-gt"
+              >
+                <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
+                <div class="item-price text-xs text-secondary">200K IDR</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div
-          class="shop-all flex h-[4rem] w-screen place-content-center place-items-center border-0 border-y border-solid border-y-lineColor"
+          class="shop-all flex h-[4rem] w-screen place-content-center place-items-center border-y border-solid border-y-lineColor"
         >
           <a href="src/shop.html" class="no-underline font-gt text-dark"
             >SEMUA ITEM</a
@@ -136,7 +184,26 @@
       </section>
 
       <section class="item-description flex h-auto w-screen">
-        <div class="item-text w-[50vw] bg-secondary"></div>
+        <div class="item-text w-[50vw] bg-secondary">
+          <div class="text-wrapper p-60">
+            <div class="title font-serif text-6xl text-white">
+              Matté Wood Chair
+            </div>
+            <div
+              class="desc mt-16 mb-12 w-[90%] font-sans text-lg text-white opacity-60 text-justify"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+              possimus voluptas nihil quae non eius optio enim nobis deleniti,
+              quos iusto dignissimos pariatur nam ipsam, exercitationem nisi. Ad
+              incidunt ipsa commodi praesentium tempore ex, error, voluptate
+              repellat quia, sunt laboriosam doloribus! Doloribus sint ipsam
+              pariatur laudantium numquam optio at perspiciatis?
+            </div>
+            <div class="article-link font-gt text-xs text-white opacity-80">
+              LIHAT PRODUK
+            </div>
+          </div>
+        </div>
         <div class="item-image">
           <img
             src="src/images/shop/chair-1-big.jpg"
@@ -154,7 +221,7 @@
         >
           <img
             class="h-[24rem]"
-            src="src/images/shop/chair-1-sm.jpg"
+            src="src/images/shop/chair-1.jpg"
             alt="chair-1"
           />
           <div class="item-info my-6 flex place-content-between p-1 font-gt">
@@ -165,11 +232,7 @@
         <div
           class="product-each absolute right-[11rem] bottom-[12vh] z-10 flex h-auto w-[22rem] flex-col bg-white p-[2rem]"
         >
-          <img
-            class="h-[24rem]"
-            src="src/images/shop/vase-1-big.jpg"
-            alt="chair-1"
-          />
+          <img class="h-[24rem]" src="src/images/shop/pot-1.jpg" alt="pot-1" />
           <div class="item-info my-6 flex place-content-between p-1 font-gt">
             <div class="item-name text-sm text-dark">MATTE WOOD CHAIR</div>
             <div class="item-price text-xs text-secondary">200K IDR</div>
@@ -299,6 +362,7 @@
         <div class="gap h-[20vh]"></div>
       </section>
     </main>
+
     <footer class="flex w-screen flex-col bg-secondary">
       <div
         class="footer-wrapper my-32 flex flex-row place-content-around place-items-center"
