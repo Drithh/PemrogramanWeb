@@ -135,10 +135,6 @@
   z-index: 10;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -214,6 +210,9 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdaa61d (featured item)
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -222,9 +221,12 @@
   margin-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
 .mt-16 {
   margin-top: 4rem;
 =======
+=======
+>>>>>>> bdaa61d (featured item)
 .mt-24 {
   margin-top: 6rem;
 >>>>>>> bd1d0d7 (about us)
@@ -246,11 +248,14 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+=======
+>>>>>>> bdaa61d (featured item)
 .mt-20 {
   margin-top: 5rem;
 }
@@ -279,6 +284,7 @@
   margin-top: 1rem;
 }
 
+<<<<<<< HEAD
 .mt-3 {
   margin-top: 0.75rem;
 >>>>>>> a206851 (shop)
@@ -286,6 +292,10 @@
 
 .mt-10 {
   margin-top: 2.5rem;
+=======
+.flex {
+  display: flex;
+>>>>>>> bdaa61d (featured item)
 }
 
 <<<<<<< HEAD
@@ -479,6 +489,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bd1d0d7 (about us)
 =======
 .h-px {
@@ -486,6 +497,8 @@
 }
 
 >>>>>>> d8a21d8 (shop item)
+=======
+>>>>>>> bdaa61d (featured item)
 .w-screen {
   width: 100vw;
 }
@@ -736,14 +749,6 @@
 >>>>>>> d8a21d8 (shop item)
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-\[95\%\] {
-  width: 95%;
-}
-
 .w-\[93\%\] {
   width: 93%;
 }
@@ -815,16 +820,8 @@
 >>>>>>> bd1d0d7 (about us)
 }
 
-.overflow-x-auto {
-  overflow-x: auto;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-x-clip {
-  overflow-x: clip;
 }
 
 .rounded-md {
@@ -875,6 +872,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .border-b {
   border-bottom-width: 1px;
 =======
@@ -897,6 +895,9 @@
 }
 
 .border-b-\[1px\] {
+=======
+.border-b {
+>>>>>>> bdaa61d (featured item)
   border-bottom-width: 1px;
 }
 
@@ -904,6 +905,7 @@
   border-right-width: 1px;
 }
 
+<<<<<<< HEAD
 .border-b {
   border-bottom-width: 1px;
 }
@@ -955,12 +957,14 @@
 
 =======
 >>>>>>> d8a21d8 (shop item)
+=======
+>>>>>>> bdaa61d (featured item)
 .border-l {
   border-left-width: 1px;
 }
 
-.border-t-\[1px\] {
-  border-top-width: 1px;
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-t {
@@ -1086,8 +1090,13 @@
   padding: 0.25rem;
 }
 
+<<<<<<< HEAD
 .p-60 {
   padding: 15rem;
+=======
+.p-\[2rem\] {
+  padding: 2rem;
+>>>>>>> bdaa61d (featured item)
 }
 
 <<<<<<< HEAD
