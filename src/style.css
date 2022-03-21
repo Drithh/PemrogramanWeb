@@ -222,6 +222,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .mt-16 {
   margin-top: 4rem;
 =======
@@ -230,6 +231,10 @@
 .mt-24 {
   margin-top: 6rem;
 >>>>>>> bd1d0d7 (about us)
+=======
+.mt-16 {
+  margin-top: 4rem;
+>>>>>>> 250c0d8 (item desc)
 }
 
 .mb-12 {
@@ -237,12 +242,18 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 250c0d8 (item desc)
 .mt-24 {
   margin-top: 6rem;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> bd1d0d7 (about us)
+=======
+>>>>>>> 250c0d8 (item desc)
 .mt-12 {
   margin-top: 3rem;
 }
@@ -549,16 +560,17 @@
   width: 90%;
 }
 
+<<<<<<< HEAD
 .w-\[26rem\] {
   width: 26rem;
+=======
+.w-\[22rem\] {
+  width: 22rem;
+>>>>>>> 250c0d8 (item desc)
 }
 
 .w-\[43vw\] {
   width: 43vw;
-}
-
-.w-\[90\%\] {
-  width: 90%;
 }
 
 .w-1\/3 {
@@ -833,6 +845,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .border-0 {
   border-width: 0px;
 }
@@ -856,6 +869,8 @@
 }
 
 >>>>>>> d8a21d8 (shop item)
+=======
+>>>>>>> 250c0d8 (item desc)
 .border-y {
 =======
 .border-y-\[1px\] {
@@ -905,6 +920,7 @@
   border-right-width: 1px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .border-b {
   border-bottom-width: 1px;
@@ -963,12 +979,18 @@
   border-left-width: 1px;
 }
 
+=======
+>>>>>>> 250c0d8 (item desc)
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-l {
+  border-left-width: 1px;
 }
 
 .border-solid {
@@ -1091,6 +1113,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .p-60 {
   padding: 15rem;
 =======
@@ -1100,6 +1123,12 @@
 }
 
 <<<<<<< HEAD
+=======
+.p-60 {
+  padding: 15rem;
+}
+
+>>>>>>> 250c0d8 (item desc)
 .p-\[2rem\] {
   padding: 2rem;
 }
@@ -1254,6 +1283,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-gt {
