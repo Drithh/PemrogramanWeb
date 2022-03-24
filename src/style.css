@@ -21,49 +21,6 @@
   position: sticky;
 }
 
-<<<<<<< HEAD
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.font-gt {
-  font-family: GTAmericaExpended, sans-serif;
-}
-
-.font-serif {
-  font-family: NeueWorldCondensed, serif;
-}
-
-.font-sans {
-  font-family: BasicCommercial, sans-serif;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.flex {
-  display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
-}
-
-.grid {
-  display: grid;
-}
-
-=======
->>>>>>> bd1d0d7 (about us)
 .top-\[-1px\] {
   top: -1px;
 }
@@ -296,9 +253,18 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .mt-3 {
   margin-top: 0.75rem;
 >>>>>>> a206851 (shop)
+=======
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 .mt-10 {
@@ -501,6 +467,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bd1d0d7 (about us)
 =======
 .h-px {
@@ -510,6 +477,12 @@
 >>>>>>> d8a21d8 (shop item)
 =======
 >>>>>>> bdaa61d (featured item)
+=======
+.h-\[28rem\] {
+  height: 28rem;
+}
+
+>>>>>>> 648e1e2 (hover animation home page)
 .w-screen {
   width: 100vw;
 }
@@ -765,6 +738,58 @@
   width: 93%;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-\[24rem\] {
+  width: 24rem;
+}
+
+.w-\[26rem\] {
+  width: 26rem;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.scale-150 {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-125 {
+  --tw-scale-x: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[200\] {
+  --tw-scale-x: 200;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[100\] {
+  --tw-scale-x: 100;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[2\] {
+  --tw-scale-x: 2;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[1\.5\] {
+  --tw-scale-x: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-150 {
+  --tw-scale-x: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -830,6 +855,24 @@
   overflow: hidden;
 =======
 >>>>>>> bd1d0d7 (about us)
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.place-self-start {
+  place-self: start;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-x-hidden {
@@ -1333,15 +1376,23 @@
   line-height: 1;
 }
 
+<<<<<<< HEAD
 .text-8xl {
   font-size: 6rem;
 >>>>>>> d8a21d8 (shop item)
   line-height: 1;
 }
 
+=======
+>>>>>>> 648e1e2 (hover animation home page)
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -1349,6 +1400,7 @@
   line-height: 1.5rem;
 }
 
+<<<<<<< HEAD
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -1368,16 +1420,21 @@
 .font-extrabold {
   font-weight: 800;
 =======
+=======
+>>>>>>> 648e1e2 (hover animation home page)
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
 }
 
+<<<<<<< HEAD
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
+=======
+>>>>>>> 648e1e2 (hover animation home page)
 .font-black {
   font-weight: 900;
 >>>>>>> bd1d0d7 (about us)
@@ -1395,10 +1452,21 @@
   font-weight: 200;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .leading-\[0\.9\] {
   line-height: 0.9;
 }
 
+<<<<<<< HEAD
+=======
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+>>>>>>> 648e1e2 (hover animation home page)
 .tracking-wider {
   letter-spacing: 0.05em;
 }
@@ -1444,8 +1512,12 @@
   opacity: 0.7;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> 648e1e2 (hover animation home page)
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -1492,7 +1564,11 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
+<<<<<<< HEAD
   tab-size: 4;
+=======
+     tab-size: 4;
+>>>>>>> 648e1e2 (hover animation home page)
   /* 3 */
   font-family: BasicCommercial, sans-serif;
   /* 4 */
@@ -1531,7 +1607,11 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
+<<<<<<< HEAD
   text-decoration: underline dotted;
+=======
+          text-decoration: underline dotted;
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 /*
@@ -1575,8 +1655,12 @@ code,
 kbd,
 samp,
 pre {
+<<<<<<< HEAD
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     'Liberation Mono', 'Courier New', monospace;
+=======
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+>>>>>>> 648e1e2 (hover animation home page)
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1799,16 +1883,24 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
+<<<<<<< HEAD
 input::-moz-placeholder,
 textarea::-moz-placeholder {
+=======
+input::-moz-placeholder, textarea::-moz-placeholder {
+>>>>>>> 648e1e2 (hover animation home page)
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
+<<<<<<< HEAD
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
+=======
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+>>>>>>> 648e1e2 (hover animation home page)
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -1828,7 +1920,11 @@ Set the default cursor for buttons.
 */
 
 button,
+<<<<<<< HEAD
 [role='button'] {
+=======
+[role="button"] {
+>>>>>>> 648e1e2 (hover animation home page)
   cursor: pointer;
 }
 
@@ -1878,9 +1974,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+<<<<<<< HEAD
 *,
 ::before,
 ::after {
+=======
+*, ::before, ::after {
+>>>>>>> 648e1e2 (hover animation home page)
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -1888,6 +1988,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
+<<<<<<< HEAD
   --tw-pan-x: ;
   --tw-pan-y: ;
   --tw-pinch-zoom: ;
@@ -1898,6 +1999,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-numeric-spacing: ;
   --tw-numeric-fraction: ;
   --tw-ring-inset: ;
+=======
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+>>>>>>> 648e1e2 (hover animation home page)
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -1905,6 +2018,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
+<<<<<<< HEAD
   --tw-blur: ;
   --tw-brightness: ;
   --tw-contrast: ;
@@ -1923,6 +2037,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
+=======
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 .after\:absolute::after {
@@ -1958,9 +2092,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 .after\:scale-x-0::after {
   content: var(--tw-content);
   --tw-scale-x: 0;
+<<<<<<< HEAD
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+=======
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 .after\:bg-dark::after {
@@ -1982,6 +2120,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .after\:transition::after {
   content: var(--tw-content);
+<<<<<<< HEAD
   transition-property: color, background-color, border-color, fill, stroke,
     opacity, box-shadow, transform, filter, -webkit-text-decoration-color,
     -webkit-backdrop-filter;
@@ -1991,6 +2130,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-property: color, background-color, border-color,
     text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
     backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+=======
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+>>>>>>> 648e1e2 (hover animation home page)
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2005,12 +2149,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
 }
 
+<<<<<<< HEAD
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+=======
+.hover\:scale-125:hover {
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-100:hover {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 .hover\:bg-secondary:hover {
@@ -2023,6 +2186,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(100 88 50 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.hover\:text-soft:hover {
+  --tw-text-opacity: 1;
+  color: rgb(235 230 215 / var(--tw-text-opacity));
+}
+
+.first-letter\:hover\:text-soft:hover::first-letter {
+  --tw-text-opacity: 1;
+  color: rgb(235 230 215 / var(--tw-text-opacity));
+}
+
+>>>>>>> 648e1e2 (hover animation home page)
 .hover\:after\:origin-bottom-left:hover::after {
   content: var(--tw-content);
   transform-origin: bottom left;
@@ -2031,9 +2207,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:after\:scale-x-100:hover::after {
   content: var(--tw-content);
   --tw-scale-x: 1;
+<<<<<<< HEAD
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+=======
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+>>>>>>> 648e1e2 (hover animation home page)
 }
 
 .hover\:after\:bg-secondary:hover::after {
@@ -2045,6 +2225,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .group:hover .group-hover\:text-soft {
   --tw-text-opacity: 1;
   color: rgb(235 230 215 / var(--tw-text-opacity));
+<<<<<<< HEAD
 =======
 .opacity-90 {
   opacity: 0.9;
@@ -2052,3 +2233,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 =======
 >>>>>>> a206851 (shop)
+=======
+}
+>>>>>>> 648e1e2 (hover animation home page)
