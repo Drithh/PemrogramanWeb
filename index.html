@@ -53,7 +53,7 @@
         <div class="relative w-[50vw]">
           <a
             href="index.html"
-            class="flex place-content-center no-underline text-4xl font-black text-dark opacity-80"
+            class="flex scale-x-150 place-content-center font-serif text-4xl font-extrabold tracking-wider text-dark no-underline opacity-80"
           >
             Sik'ea
           </a>
@@ -74,8 +74,10 @@
         </div>
         <a
           href="src/shop.html"
-          class="h-12 w-48 no-underline bg-soft rounded-md flex place-items-center place-content-center my-10"
-          ><p class="font-gt text-secondary">SHOP ALL</p></a
+          class="group my-10 flex h-12 w-48 place-content-center place-items-center rounded-md bg-soft no-underline duration-500 hover:bg-secondary"
+          ><p class="font-gt text-secondary duration-500 group-hover:text-soft">
+            SHOP ALL
+          </p></a
         >
       </div>
     </header>
@@ -100,8 +102,12 @@
         </div>
         <a
           href="src/about-us.html"
-          class="h-10 w-48 no-underline bg-soft rounded-md flex place-items-center place-content-center my-10 border-lineColor border border-solid"
-          ><p class="font-gt text-xs text-secondary">TENTANG KAMI</p></a
+          class="group my-10 flex h-10 w-48 place-content-center place-items-center rounded-md border border-solid border-lineColor bg-soft no-underline duration-500 hover:bg-secondary"
+          ><p
+            class="font-gt text-xs text-secondary duration-500 group-hover:text-soft"
+          >
+            TENTANG KAMI
+          </p></a
         >
       </section>
 
@@ -115,7 +121,7 @@
           <div class="item w-[25%] border-r border-solid border-lineColor">
             <div class="item__each p-6">
               <img
-                class="w-full h-auto"
+                class="h-auto w-full"
                 src="src/images/shop/chair-2.png"
                 alt="chair-2"
               />
@@ -130,7 +136,7 @@
           <div class="item w-[25%] border-r border-solid border-lineColor">
             <div class="item__each p-6">
               <img
-                class="w-full h-auto"
+                class="h-auto w-full"
                 src="src/images/shop/chair-3.jpg"
                 alt="chair-3"
               />
@@ -145,7 +151,7 @@
           <div class="item w-[25%] border-r border-solid border-lineColor">
             <div class="item__each p-6">
               <img
-                class="w-full h-auto"
+                class="h-auto w-full"
                 src="src/images/shop/pot-2.png"
                 alt="pot-2"
               />
@@ -160,7 +166,7 @@
           <div class="item w-[25%] border-r border-solid border-lineColor">
             <div class="item__each p-6">
               <img
-                class="w-full h-auto"
+                class="h-auto w-full"
                 src="src/images/shop/sofa-1.png"
                 alt="sofa-1"
               />
@@ -176,7 +182,9 @@
         <div
           class="shop-all flex h-[4rem] w-screen place-content-center place-items-center border-y border-solid border-y-lineColor"
         >
-          <a href="src/shop.html" class="no-underline font-gt text-dark"
+          <a
+            href="src/shop.html"
+            class="relative font-gt text-dark no-underline duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
             >SEMUA ITEM</a
           >
         </div>
@@ -189,7 +197,7 @@
               Matté Wood Chair
             </div>
             <div
-              class="desc mt-16 mb-12 w-[90%] font-sans text-lg text-white opacity-60 text-justify"
+              class="desc mt-16 mb-12 w-[90%] text-justify font-sans text-lg text-white opacity-60"
             >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
               possimus voluptas nihil quae non eius optio enim nobis deleniti,
@@ -198,15 +206,17 @@
               repellat quia, sunt laboriosam doloribus! Doloribus sint ipsam
               pariatur laudantium numquam optio at perspiciatis?
             </div>
-            <div class="article-link font-gt text-xs text-white opacity-80">
+            <span
+              class="article-link hover-underline-animation relative font-gt text-xs text-white opacity-80 duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:opacity-80 after:transition after:duration-500 after:content-[''] hover:after:origin-bottom-left hover:after:scale-x-100"
+            >
               LIHAT PRODUK
-            </div>
+            </span>
           </div>
         </div>
-        <div class="item-image">
+        <div class="item-image inline-block overflow-hidden">
           <img
             src="src/images/shop/chair-1-big.jpg"
-            class="w-[50vw]"
+            class="w-[50vw] duration-500 hover:scale-105"
             alt="Kursi Kayu"
           />
         </div>
@@ -216,7 +226,7 @@
         class="image relative h-[140vh] w-screen bg-[url('images/product-1.jpg')] bg-cover bg-fixed bg-center"
       >
         <div
-          class="product-each absolute left-[11rem] top-[12vh] z-10 flex h-auto w-[22rem] flex-col bg-white p-[2rem]"
+          class="product-each absolute left-[11rem] top-[12vh] z-10 flex h-auto w-[26rem] flex-col bg-white p-[2rem]"
         >
           <img
             class="h-[24rem]"
@@ -229,7 +239,7 @@
           </div>
         </div>
         <div
-          class="product-each absolute right-[11rem] bottom-[12vh] z-10 flex h-auto w-[22rem] flex-col bg-white p-[2rem]"
+          class="product-each absolute right-[11rem] bottom-[12vh] z-10 flex h-auto w-[26rem] flex-col bg-white p-[2rem]"
         >
           <img class="h-[24rem]" src="src/images/shop/pot-1.jpg" alt="pot-1" />
           <div class="item-info my-6 flex place-content-between p-1 font-gt">
@@ -261,15 +271,21 @@
                 <div class="title font-serif text-6xl text-dark">
                   Solid Wood vs Wood Veneer
                 </div>
-                <div class="desc mt-24 mb-12 w-[90%] font-sans text-lg">
-                  Solid wood memberikan nuansa alami dan memiliki kualitas ketahanan selama beberapa generasi. Namun,
-                  untuk mengolahnya memerlukan biaya yang cukup besar dan kayu solid cenderung berat. Masalah-masalah 
-                  tersebut diatasi oleh veneer, tetapi veneer wood lebih susah diperbaiki apabila terjadi kerusakan. Lalu
-                  manakah yang lebih baik?
+                <div
+                  class="desc mt-24 mb-12 w-[90%] text-justify font-sans text-lg"
+                >
+                  Solid wood memberikan nuansa alami dan memilikiimg kualitas
+                  ketahanan selama beberapa generasi. Namun, untuk mengolahnya
+                  memerlukan biaya yang cukup besar dan kayu solid cenderung
+                  berat. Masalah-masalah tersebut diatasi oleh veneer, tetapi
+                  veneer wood lebih susah diperbaiki apabila terjadi kerusakan.
+                  Lalu manakah yang lebih baik?
                 </div>
-                <div class="article-link font-gt text-xs text-dark">
+                <span
+                  class="article-link relative font-gt text-xs text-dark duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
+                >
                   BACA ARTIKEL
-                </div>
+                </span>
               </div>
             </div>
             <div class="article-image border-r border-solid border-lineColor">
@@ -279,11 +295,13 @@
                 BLOG
               </div>
               <div class="image-wrapper p-6">
-                <img
-                  class="h-[28vw]"
-                  src="src/images/product-2.jpg"
-                  alt="chair-1"
-                />
+                <div class="image-overflow inline-block overflow-hidden">
+                  <img
+                    class="h-[28vw] duration-500 hover:scale-105"
+                    src="src/images/product-2.jpg"
+                    alt="chair-1"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -291,7 +309,11 @@
         <div
           class="see-all flex h-14 place-content-center place-items-center font-gt text-dark"
         >
-          SEMUA ARTIKEL
+          <span
+            class="relative duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
+          >
+            SEMUA ARTIKEL</span
+          >
         </div>
         <div
           class="list-article flex flex-row border-y border-solid border-lineColor"
@@ -299,56 +321,80 @@
           <div
             class="article__item w-1/3 border-r border-solid border-lineColor p-5"
           >
-            <img class="w-full" src="src/images/product-5.png" alt="chair-1" />
+            <div class="image-overflow inline-block overflow-hidden">
+              <img
+                class="w-full duration-500 hover:scale-105"
+                src="src/images/product-5.png"
+                alt="chair-1"
+              />
+            </div>
             <div class="title font-serif text-6xl text-dark">
               Kenapa furnitur kayu biasanya lebih mahal?
             </div>
-            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
-              Ketika sedang melihat-lihat katalog tentang furnitur mungkin terbesit dalam benak kita, 
-              "Kenapa furnitur kayu asli sangat mahal?". Memang furnitur kayu asli dapat membuat ruangan
-              terlihat begitu bagus dan aesthetic, tetapi apakah hal itu pantas membuat harganya lebih tinggi
-              dibanding furnitur dengan bahan lain? Mari kita simak dalam artikel ini...
+            <div class="desc mt-12 mb-6 w-[95%] text-justify font-sans text-lg">
+              Ketika sedang melihat-lihat katalog tentang furnitur mungkin
+              terbesit dalam benak kita, "Kenapa furnitur kayu asli sangat
+              mahal?". Memang furnitur kayu asli dapat membuat ruangan terlihat
+              begitu bagus dan aesthetic, tetapi apakah hal itu pantas membuat
+              harganya lebih tinggi dibanding furnitur dengan bahan lain? Mari
+              kita simak dalam artikel ini...
             </div>
-            <div class="article-link font-gt text-xs text-dark">
+            <span
+              class="article-link relative font-gt text-xs text-dark duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
+            >
               BACA ARTIKEL
-            </div>
+            </span>
           </div>
           <div
             class="article__item w-1/3 border-r border-solid border-lineColor p-5"
           >
-            <img class="w-full" src="src/images/product-6.jpg" alt="chair-1" />
+            <div class="image-overflow inline-block overflow-hidden">
+              <img
+                class="w-full duration-500 hover:scale-105"
+                src="src/images/product-6.jpg"
+                alt="chair-1"
+              />
+            </div>
             <div class="title font-serif text-6xl text-dark">
               Apakah penggunaan furnitur kayu ramah lingkungan?
             </div>
-            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
-              Furnitur kayu dibuat dari berbagai jenis dan ukuran kayu. Dengan bahan dasar kayu tentu artinya
-              ada pohon-pohon yang ditebang. Seperti yang kita tahu saat ini dunia sedang gencar-gencarnya
-              melakukan tindakan go green. Lalu apakah penggunaan kayu sebagai bahan furnitur menyalahi
-              tindakan tersebut?
+            <div class="desc mt-12 mb-6 w-[95%] text-justify font-sans text-lg">
+              Furnitur kayu dibuat dari berbagai jenis dan ukuran kayu. Dengan
+              bahan dasar kayu tentu artinya ada pohon-pohon yang ditebang.
+              Seperti yang kita tahu saat ini dunia sedang gencar-gencarnya
+              melakukan tindakan go green. Lalu apakah penggunaan kayu sebagai
+              bahan furnitur menyalahi tindakan tersebut?
             </div>
-            <div class="article-link font-gt text-xs text-dark">
+            <span
+              class="article-link relative font-gt text-xs text-dark duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
+            >
               BACA ARTIKEL
-            </div>
+            </span>
           </div>
           <div
             class="article__item w-1/3 border-r border-solid border-lineColor p-5"
           >
-            <img
-              class="h-[395px] w-full"
-              src="src/images/product-7.jpg"
-              alt="chair-1"
-            />
+            <div class="image-overflow inline-block overflow-hidden">
+              <img
+                class="w-full duration-500 hover:scale-105"
+                src="src/images/product-7.jpg"
+                alt="chair-1"
+              />
+            </div>
             <div class="title font-serif text-6xl text-dark">
               Pembuatan furnitur kayu sangat lama. Apa penyebabnya?
             </div>
-            <div class="desc mt-12 mb-6 w-[90%] font-sans text-lg">
-              Ketika kita bertanya atau mungkin memesan furnitur kayu secara khusus sering dihadapkan dengan
-              waktu pembuatan yang lama hingga berminggu-minggu. Apakah penyebab hal itu bisa terjadi? Kami
-              akan menjelaskannya dalam artikel ini secara lengkap dan jelas.
+            <div class="desc mt-12 mb-6 w-[95%] text-justify font-sans text-lg">
+              Ketika kita bertanya atau mungkin memesan furnitur kayu secara
+              khusus sering dihadapkan dengan waktu pembuatan yang lama hingga
+              berminggu-minggu. Apakah penyebab hal itu bisa terjadi? Kami akan
+              menjelaskannya dalam artikel ini secara lengkap dan jelas.
             </div>
-            <div class="article-link font-gt text-xs text-dark">
+            <span
+              class="article-link relative font-gt text-xs text-dark duration-500 after:absolute after:bottom-px after:left-0 after:h-[0.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-dark after:opacity-80 after:transition after:duration-500 after:content-[''] hover:text-secondary hover:after:origin-bottom-left hover:after:scale-x-100 hover:after:bg-secondary"
+            >
               BACA ARTIKEL
-            </div>
+            </span>
           </div>
         </div>
         <div class="gap h-[20vh]"></div>
@@ -360,79 +406,79 @@
         class="footer-wrapper my-32 flex flex-row place-content-around place-items-center"
       >
         <div
-          class="logo flex place-content-center text-6xl font-black text-soft"
+          class="logo my-6 w-40 scale-x-150 place-self-start font-serif text-7xl font-extrabold tracking-wider text-soft"
         >
           Sik'ea
         </div>
         <div class="main-footer flex gap-40">
           <div class="link-wrapper flex flex-col gap-2">
             <div
-              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+              class="title-link font-gt text-sm font-bold text-soft opacity-80"
             >
               ABOUT US
             </div>
             <a
               href="src/about-us.html"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Who Are We</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Article</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Contact</a
             >
           </div>
           <div class="link-wrapper flex flex-col gap-2">
             <div
-              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+              class="title-link font-gt text-sm font-bold text-soft opacity-80"
             >
               SHOP
             </div>
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >All</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Decor</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Furniture</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Lamp</a
             >
           </div>
           <div class="link-wrapper flex flex-col gap-2">
             <div
-              class="title-link font-gt text-xs font-bold text-soft opacity-80"
+              class="title-link font-gt text-sm font-bold text-soft opacity-80"
             >
               HELP
             </div>
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Privacy Policy</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Refunds & Returns</a
             >
             <a
               href="http://"
-              class="each__link decoration-none font-gt text-xs font-thin text-soft no-underline opacity-60"
+              class="each__link decoration-none font-gt text-sm font-thin text-soft no-underline opacity-60"
               >Contact</a
             >
           </div>

@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{html,js}', '*.html'],
+  mode: process.env.NODE_ENV ? 'jit' : undefined,
   theme: {
     fontFamily: {
       gt: ['GTAmericaExpended', 'sans-serif'],
